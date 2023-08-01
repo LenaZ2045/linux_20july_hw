@@ -1,0 +1,9 @@
+   0 mkdir -p /tmp//lena/h3
+   1 touch /tmp/lena/h3/newfile
+   2 date >> /tmp/lena/h3/newfile 
+   3 echo "Homework 3" >> /tmp/lena/h3/newfile 
+   4 df -h / >> /tmp/lena/h3/newfile 
+   5 history | tail -5 >> /tmp/lena/h3/newfile 
+   6 cat /proc/cpuinfo | head -2 | tail -1 >> /tmp/lena/h3/newfile 
+   7 cat /tmp/lena/h3/newfile 
+   8 history > history_july20_hw.txt
